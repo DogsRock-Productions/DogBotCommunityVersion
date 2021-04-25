@@ -7,7 +7,8 @@ intents = discord.Intents.all()
 bot = commands.Bot(
     command_prefix=commands.when_mentioned_or('d?'), 
     intents=intents, 
-    case_insensitive=True
+    case_insensitive=True,
+    owner_ids=[511655498676699136,561565119201673216]
 )
 
 cogs = ['jishaku']
